@@ -4,9 +4,9 @@ const schema = new Schema({
     from: {type: String, required: true},
     to: {type: String, required: true, unique: true},
     code: {type: String, required: true, unique: true},
-    date: {type: Data, default: Date.now},
+    date: {type: Date, default: Date.now},
     click: {type: Number, default:0},
-    owner: {type: Type.ObjectId, ref:'User'}
+    owner: {type: Types.ObjectId, ref:'User'}
 
 
 });
