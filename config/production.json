@@ -1,0 +1,6 @@
+{
+    "port": 5000,
+    "jwtSecret": "genohitri mern",
+    "mongoUri": "mongodb+srv://genohitri:INKabracadabra1991@cluster0.anlrb.mongodb.net/app?retryWrites=true&w=majority",
+    "baseUrl": "http://localhost:5000"
+}
